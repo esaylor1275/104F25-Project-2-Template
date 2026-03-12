@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://bn86h30ccvvps"]
+
+[ext_resource type="Script" uid="uid://bq2u33girmk51" path="res://pt_a.gd" id="1_17fvo"]
+[ext_resource type="Script" uid="uid://dk0gwwtamjx8j" path="res://pt_b.gd" id="2_hnxnl"]
+[ext_resource type="Script" uid="uid://q6a8laxbpfpj" path="res://pt_c.gd" id="3_e4y4m"]
+[ext_resource type="Script" uid="uid://bbahyf0vjlnrd" path="res://pt_d.gd" id="4_k6j58"]
+[ext_resource type="Texture2D" uid="uid://dxsjwco66ood4" path="res://happy monkey.jpg" id="5_30xhx"]
+[ext_resource type="Texture2D" uid="uid://itxshlirtaga" path="res://welcome to the village.jpg" id="6_w5xyt"]
+[ext_resource type="Texture2D" uid="uid://g8dpvya5tbq1" path="res://this is very important.jpg" id="7_whkvy"]
+[ext_resource type="Texture2D" uid="uid://bhw4pt8xrkdyt" path="res://look out for danger.jpg" id="8_2nihs"]
+[ext_resource type="Texture2D" uid="uid://bv5eaidsab62j" path="res://heres a sword.jpg" id="9_gsoy7"]
+[ext_resource type="Texture2D" uid="uid://bjbi42oram3e3" path="res://strong.jpg" id="10_d6e7n"]
+[ext_resource type="Texture2D" uid="uid://dcvk3jas8ffh8" path="res://good luck on your quest.jpg" id="11_n1vqo"]
+
+[node name="CISC104 project 2" type="Node2D" unique_id=1923346701]
+
+[node name="pt a" type="RichTextLabel" parent="." unique_id=2116525442]
+visible = false
+offset_right = 1140.0
+offset_bottom = 632.0
+theme_override_font_sizes/normal_font_size = 41
+script = ExtResource("1_17fvo")
+
+[node name="pt b" type="RichTextLabel" parent="." unique_id=816003305]
+visible = false
+offset_right = 1008.0
+offset_bottom = 606.0
+theme_override_font_sizes/normal_font_size = 41
+tab_size = 24
+script = ExtResource("2_hnxnl")
+
+[node name="pt c" type="RichTextLabel" parent="." unique_id=2071615315]
+visible = false
+offset_right = 1126.0
+offset_bottom = 610.0
+theme_override_font_sizes/normal_font_size = 41
+theme_override_font_sizes/bold_font_size = 43
+theme_override_font_sizes/bold_italics_font_size = 43
+theme_override_font_sizes/italics_font_size = 43
+bbcode_enabled = true
+script = ExtResource("3_e4y4m")
+
+[node name="pt d" type="RichTextLabel" parent="." unique_id=1761127735]
+offset_right = 1142.0
+offset_bottom = 652.0
+theme_override_font_sizes/normal_font_size = 41
+theme_override_font_sizes/bold_font_size = 45
+theme_override_font_sizes/bold_italics_font_size = 45
+theme_override_font_sizes/italics_font_size = 43
+theme_override_font_sizes/mono_font_size = 43
+bbcode_enabled = true
+script = ExtResource("4_k6j58")
+
+[node name="Hello" type="Sprite2D" parent="pt d" unique_id=1152226671]
+position = Vector2(744.8, 401.67548)
+scale = Vector2(1.2030083, 1.0119212)
+texture = ExtResource("5_30xhx")
+
+[node name="Welcome" type="Sprite2D" parent="pt d" unique_id=1306195405]
+position = Vector2(742.3, 404.67548)
+scale = Vector2(1.1990703, 0.7462675)
+texture = ExtResource("6_w5xyt")
+
+[node name="Important" type="Sprite2D" parent="pt d" unique_id=2014427374]
+position = Vector2(744.8, 405.67548)
+scale = Vector2(1.2128527, 0.75941753)
+texture = ExtResource("7_whkvy")
+
+[node name="Danger" type="Sprite2D" parent="pt d" unique_id=1575339907]
+position = Vector2(741.8, 406.1755)
+scale = Vector2(1.2207285, 0.7577738)
+texture = ExtResource("8_2nihs")
+
+[node name="Sword" type="Sprite2D" parent="pt d" unique_id=1170529426]
+position = Vector2(739.3, 403.67548)
+scale = Vector2(1.4196875, 0.8771109)
+texture = ExtResource("9_gsoy7")
+
+[node name="Strong" type="Sprite2D" parent="pt d" unique_id=385656125]
+position = Vector2(742.55, 408.17545)
+scale = Vector2(1.2352047, 1.1532521)
+texture = ExtResource("10_d6e7n")
+
+[node name="Luck" type="Sprite2D" parent="pt d" unique_id=1474976348]
+position = Vector2(746.3, 406.67548)
+scale = Vector2(1.2463244, 0.75941753)
+texture = ExtResource("11_n1vqo")
